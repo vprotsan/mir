@@ -1,0 +1,87 @@
+html {
+    min-height: 100%;
+    height: 100%;
+    position: relative;
+    font-family: sans-serif;
+
+    body.mir {
+        background: #0039a6 url(../images/MIR-Movie-Pass-Landing-WEB.jpg) no-repeat;
+        background-position: top center;
+        background-size: cover;
+
+        @include mq(tablet){
+            background-size: cover;
+        }
+
+        @include mq(tablet-wide){
+            background-size: cover;
+        }
+
+        @include mq(sm-comp){
+            background-size: contain;
+        }
+
+        p {
+            color: #ffffff;
+            font-size: 28px;
+            text-align:center;
+            margin-top: 150px;
+            margin-top: 25vh;
+
+            @include mq(phone-wide){
+                margin-top: 30vh;
+                font-size: 30px;
+            }
+
+            @include mq(tablet){
+                font-size: 32px;
+            }
+
+            @include mq(tablet-wide){
+                font-size: 41px;
+                margin-top: 25vh;
+            }
+        }
+
+        a {
+            display: block;
+            color: #ffffff;
+            text-align:center;
+        }
+
+        .button {
+            display: block;
+            padding: 40px 50px 50px;
+            background: url(../images/button_03.png) no-repeat;
+            background-position:center center;
+            background-size: 300px 97px;
+            color: #fff;
+            margin-top: 40vh;
+            font-size: 26px;
+            letter-spacing: -1px;
+
+            @include mq(phablet){
+                //margin-top: 30vh;
+                font-size: 29px;
+            }
+
+            @include mq(tablet){
+                //margin-top: 50vh;
+            }
+        }
+
+        .help {
+            color: #0039a6;
+            text-decoration: underline;
+            @include transition (color);
+
+            &:hover {
+                color: darken(#0039a6, 20%);
+            }
+        }
+    }
+}
+
+
+
+

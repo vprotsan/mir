@@ -1,0 +1,116 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* remember to define visible focus styles! 
+:focus {
+	outline: ?????;
+} */
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  min-height: 100%;
+  height: 100%;
+  position: relative;
+  font-family: sans-serif; }
+  html body.mir {
+    background: #0039a6 url(../images/MIR-Movie-Pass-Landing-WEB.jpg) no-repeat;
+    background-position: top center;
+    background-size: cover; }
+    @media only screen and (min-width: 768px) {
+      html body.mir {
+        background-size: cover; } }
+    @media only screen and (min-width: 1024px) {
+      html body.mir {
+        background-size: cover; } }
+    @media only screen and (min-width: 1100px) {
+      html body.mir {
+        background-size: contain; } }
+    html body.mir p {
+      color: #ffffff;
+      font-size: 28px;
+      text-align: center;
+      margin-top: 150px;
+      margin-top: 25vh; }
+      @media only screen and (min-width: 480px) {
+        html body.mir p {
+          margin-top: 30vh;
+          font-size: 30px; } }
+      @media only screen and (min-width: 768px) {
+        html body.mir p {
+          font-size: 32px; } }
+      @media only screen and (min-width: 1024px) {
+        html body.mir p {
+          font-size: 41px;
+          margin-top: 25vh; } }
+    html body.mir a {
+      display: block;
+      color: #ffffff;
+      text-align: center; }
+    html body.mir .button {
+      display: block;
+      padding: 40px 50px 50px;
+      background: url(../images/button_03.png) no-repeat;
+      background-position: center center;
+      background-size: 300px 97px;
+      color: #fff;
+      margin-top: 40vh;
+      font-size: 26px;
+      letter-spacing: -1px; }
+      @media only screen and (min-width: 560px) {
+        html body.mir .button {
+          font-size: 29px; } }
+    html body.mir .help {
+      color: #0039a6;
+      text-decoration: underline;
+      -moz-transition: color;
+      -o-transition: color;
+      -ms-transition: color;
+      -webkit-transition: color;
+      transition: color; }
+      html body.mir .help:hover {
+        color: #001640; }
